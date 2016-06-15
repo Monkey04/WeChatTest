@@ -1,0 +1,17 @@
+D:\projects\WeChatTest\WeChatTest\bin\WeChatTest.dll.config
+D:\projects\WeChatTest\WeChatTest\bin\WeChatTest.dll
+D:\projects\WeChatTest\WeChatTest\bin\WeChatTest.pdb
+D:\projects\WeChatTest\WeChatTest\obj\Debug\WeChatTest.dll
+D:\projects\WeChatTest\WeChatTest\obj\Debug\WeChatTest.pdb
+D:\backend_projects\WeChatTest\WeChatTest\bin\WeChatTest.dll.config
+D:\backend_projects\WeChatTest\WeChatTest\bin\WeChatTest.dll
+D:\backend_projects\WeChatTest\WeChatTest\bin\WeChatTest.pdb
+D:\backend_projects\WeChatTest\WeChatTest\obj\Debug\WeChatTest.dll
+D:\backend_projects\WeChatTest\WeChatTest\obj\Debug\WeChatTest.pdb
+D:\backend_projects\WeChatTest\WeChatTest\obj\Debug\WeChatTest.csprojResolveAssemblyReference.cache
+D:\backup\WeChatTest\WeChatTest\bin\WeChatTest.dll.config
+D:\backup\WeChatTest\WeChatTest\bin\WeChatTest.dll
+D:\backup\WeChatTest\WeChatTest\bin\WeChatTest.pdb
+D:\backup\WeChatTest\WeChatTest\obj\Debug\WeChatTest.csprojResolveAssemblyReference.cache
+D:\backup\WeChatTest\WeChatTest\obj\Debug\WeChatTest.dll
+D:\backup\WeChatTest\WeChatTest\obj\Debug\WeChatTest.pdb

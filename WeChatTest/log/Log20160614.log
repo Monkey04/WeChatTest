@@ -1,0 +1,38 @@
+-----------------2016-06-14 10:28:08-----------------
+http://houzhihao.51mypc.cn:8011/interface.aspx?signature=f793e8bd6b93a064ff6c657cc8cae3ba22511d83&timestamp=1465871264&nonce=1404349666&openid=ohrmuwm6-MAv8G4lEz0XxPgILTDU
+postData：<xml><ToUserName><![CDATA[gh_7edf5da09ab3]]></ToUserName>
+<FromUserName><![CDATA[ohrmuwm6-MAv8G4lEz0XxPgILTDU]]></FromUserName>
+<CreateTime>1465871264</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[在哪]]></Content>
+<MsgId>6295869139751528173</MsgId>
+</xml>
+
+
+-----------------2016-06-14 10:28:08-----------------
+http://houzhihao.51mypc.cn:8011/interface.aspx?signature=f793e8bd6b93a064ff6c657cc8cae3ba22511d83&timestamp=1465871264&nonce=1404349666&openid=ohrmuwm6-MAv8G4lEz0XxPgILTDU
+<xml>
+                                     <ToUserName><![CDATA[ohrmuwm6-MAv8G4lEz0XxPgILTDU]]></ToUserName>
+                                     <FromUserName><![CDATA[gh_7edf5da09ab3]]></FromUserName>
+                                     <CreateTime>1465900088</CreateTime>
+                                     <MsgType><![CDATA[text]]></MsgType>
+                                     <Content><![CDATA[你刚才发送的是：在哪]]></Content>
+                                   </xml>
+
+
+-----------------2016-06-14 11:38:34-----------------
+http://houzhihao.51mypc.cn:8011/interface.aspx?signature=869156da936776c0764603326bef502ed6e823c7&timestamp=1465875514&nonce=1367710782&openid=ohrmuwm6-MAv8G4lEz0XxPgILTDU
+postData：<xml><ToUserName><![CDATA[gh_7edf5da09ab3]]></ToUserName>
+<FromUserName><![CDATA[ohrmuwm6-MAv8G4lEz0XxPgILTDU]]></FromUserName>
+<CreateTime>1465875514</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+
+-----------------2016-06-14 11:38:34-----------------
+http://houzhihao.51mypc.cn:8011/interface.aspx?signature=869156da936776c0764603326bef502ed6e823c7&timestamp=1465875514&nonce=1367710782&openid=ohrmuwm6-MAv8G4lEz0XxPgILTDU
+subscribe
+
+

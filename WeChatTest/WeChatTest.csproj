@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5A94FBFE-8106-4008-8F94-BB2D718BC228}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WeChatTest</RootNamespace>
+    <AssemblyName>WeChatTest</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="default.aspx" />
+    <Content Include="Document\GlobalReturnCode.txt" />
+    <Content Include="Document\地区信息_中国地区_CN_EN.txt" />
+    <Content Include="Image\she-wont-come-back.gif" />
+    <Content Include="interface.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebChatPage.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Enum\ButtonType.cs" />
+    <Compile Include="Enum\EventType.cs" />
+    <Compile Include="Enum\MediaType.cs" />
+    <Compile Include="Enum\MsgType.cs" />
+    <Compile Include="EventPush\EventBase.cs" />
+    <Compile Include="EventPush\EventClick.cs" />
+    <Compile Include="EventPush\EventLocationSelect.cs" />
+    <Compile Include="EventPush\EventPhoto.cs" />
+    <Compile Include="EventPush\EventScanCode.cs" />
+    <Compile Include="EventPush\EventView.cs" />
+    <Compile Include="extension.cs" />
+    <Compile Include="Helper\CacheHelper.cs" />
+    <Compile Include="Helper\GlobalReturnCodeHelper.cs" />
+    <Compile Include="interface.aspx.cs">
+      <DependentUpon>interface.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interface.aspx.designer.cs">
+      <DependentUpon>interface.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\JsonDeserializeHelper.cs" />
+    <Compile Include="Model\ButtonModel.cs" />
+    <Compile Include="Model\CustomerGroupModel.cs" />
+    <Compile Include="Model\CustomerListModel.cs" />
+    <Compile Include="Model\CustomerModel.cs" />
+    <Compile Include="Model\CustomerServiceNewsModel.cs" />
+    <Compile Include="Model\CustomerServiceStaff.cs" />
+    <Compile Include="Model\CustomMenuButtonModel.cs" />
+    <Compile Include="Model\ErrorBaseModel.cs" />
+    <Compile Include="Model\GraphicsMaterialModel.cs" />
+    <Compile Include="Model\MatchRuleModel.cs" />
+    <Compile Include="Model\CustomMenuModel.cs" />
+    <Compile Include="Model\MaterialCountModel.cs" />
+    <Compile Include="Model\MaterialListModel.cs" />
+    <Compile Include="Model\MenuButtonModel.cs" />
+    <Compile Include="Model\MenuModel.cs" />
+    <Compile Include="Model\NewsInformationModel.cs" />
+    <Compile Include="Model\PageAuthorizationModel.cs" />
+    <Compile Include="Model\QrCodeModel.cs" />
+    <Compile Include="Model\UploadResultModel.cs" />
+    <Compile Include="Model\VideoMaterialModel.cs" />
+    <Compile Include="MsgPush\MsgLink.cs" />
+    <Compile Include="MsgPush\MsgLocation.cs" />
+    <Compile Include="MsgPush\MsgShortVideo.cs" />
+    <Compile Include="MsgPush\MsgVideo.cs" />
+    <Compile Include="MsgPush\MsgVoice.cs" />
+    <Compile Include="MsgPush\MsgImage.cs" />
+    <Compile Include="PageService\PageAuthorizeService.cs" />
+    <Compile Include="Push\PushBase.cs" />
+    <Compile Include="Service\AccountService.cs" />
+    <Compile Include="Service\CustomerService.cs" />
+    <Compile Include="Service\MaterialService.cs" />
+    <Compile Include="Service\MenuService.cs" />
+    <Compile Include="MsgPush\MsgBase.cs" />
+    <Compile Include="MsgPush\MsgText.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\MessageService.cs" />
+    <Compile Include="Tools.cs" />
+    <Compile Include="WebChatPage.aspx.cs">
+      <DependentUpon>WebChatPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebChatPage.aspx.designer.cs">
+      <DependentUpon>WebChatPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WeChatConfig.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DownLoad\" />
+    <Folder Include="log\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2191</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2191/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
