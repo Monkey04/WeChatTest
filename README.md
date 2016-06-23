@@ -4,6 +4,7 @@
 > 该应用程序基于微信公众平台开发者文档编写
 > 使用个人测试号测试
 > 文档地址链接：[http://mp.weixin.qq.com/wiki/home/index.html](http://mp.weixin.qq.com/wiki/home/index.html)
+
 #### 应用程序中已实现的文档功能
 
  - 开始开发
